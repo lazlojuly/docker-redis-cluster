@@ -1,6 +1,6 @@
-server:
+rediscluster:
   build: .
-  hostname: server
+  hostname: rediscluster
   expose:
     - "7000:7000"
     - "7001:7001"
